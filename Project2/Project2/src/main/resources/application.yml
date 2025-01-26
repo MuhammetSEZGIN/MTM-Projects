@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Management System
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/project2db
+    username: postgres
+    password: 1234
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
